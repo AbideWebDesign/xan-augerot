@@ -53,7 +53,7 @@
 				
 				<h1 class="text-white mb-1 mb-md-2"><?php the_field('hero_banner_title'); ?></h1>
 				
-				<?php echo do_shortcode('[esi gravityform id="' . get_field('hero_banner_form') . '" title="false" description="false" ajax="true" tabindex="49"]'); ?>
+				<?php echo do_shortcode('[gravityform id="' . get_field('hero_banner_form') . '" title="false" description="false" ajax="true" tabindex="49"]'); ?>
 				
 			</div>
 			
