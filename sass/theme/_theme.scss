@@ -362,6 +362,11 @@ p {
 			min-height: 185px;
 		}
 	}
+	@include media-breakpoint-down(md) {
+		.carousel-item {
+			min-height: auto;
+		}		
+	}
 	@include media-breakpoint-down(sm) {
 		& {
 			padding-bottom: 80px;

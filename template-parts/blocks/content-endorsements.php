@@ -45,7 +45,7 @@ $counter = 0;
 									
 									<div class="col-md-3 align-self-center">
 										
-										<?php echo wp_get_attachment_image( get_sub_field('endorsement_photo'), 'Square Medium', false, array('class'=>'img-fluid d-none d-sm-block d-md-block d-lg-block d-xl-block') ); ?>
+										<?php echo wp_get_attachment_image( get_sub_field('endorsement_photo'), 'Square Medium', false, array('class'=>'img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block') ); ?>
 										
 									</div>
 									
