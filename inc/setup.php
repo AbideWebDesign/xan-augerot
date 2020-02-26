@@ -56,7 +56,7 @@ if ( ! function_exists( 'electxan_setup' ) ) {
 }
 
 add_image_size('Square Medium', 400, 400, true);
-add_image_size('Side Cover', 1067, 1600, true);
+add_image_size('Side Cover', 1200, 1000, true);
 add_image_size('Hero Banner', 2400, 1600, true);
 add_image_size('Lead Block', 1170, 846, true);
 add_image_size('Full Screen', 1500, 900, array( 'left', 'top' ));

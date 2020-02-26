@@ -12,7 +12,7 @@ h1 {
 	line-height: 1em;
 }
 h2 {
-	font-size: 52px;
+	font-size: 48px;
 }
 p {
 	font-size: $font-size-base;
@@ -332,6 +332,11 @@ p {
 			max-width: 1500px;
 		}	
 	}
+	@include media-breakpoint-down(sm) {
+		& {
+			padding-bottom: 80px;
+		}	
+	}
 }
 
 /* Block - Endorsement Carousel */
@@ -357,6 +362,17 @@ p {
 			min-height: 185px;
 		}
 	}
+	@include media-breakpoint-down(sm) {
+		& {
+			padding-bottom: 80px;
+		}
+		.lead {
+			font-size: 19px;
+		}
+		strong {
+			padding-left: 2.3em;
+		}
+	}
 }
 
 /* Block - List Banner */
@@ -364,6 +380,7 @@ p {
 	
 	.hero-banner-text {
 		.hero-banner-text-inner {
+			padding: 50px 15px;
 			text-align: left;
 			margin-right: 55px;
 			margin-left: auto;
@@ -390,12 +407,24 @@ p {
 		.hero-banner-image-inner {
 			padding-bottom: 66.66667%;
 		}
+		.hero-banner-text {
+			.hero-banner-text-inner {
+				max-width: 960px;
+				padding: 50px 15px;
+				margin: auto;
+			}
+		}
 	}
 	@include media-breakpoint-down(md) {
 		.hero-banner-text {
 			.hero-banner-text-inner {
 				margin-right: 0;
 			}
+		}
+	}
+	@include media-breakpoint-down(sm) {
+		h2 {
+			text-align: center;
 		}
 	}
 }
