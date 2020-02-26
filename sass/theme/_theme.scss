@@ -382,6 +382,14 @@ p {
 		}
 	}
 	@include media-breakpoint-down(lg) {
+		& {
+			flex-direction: column !important;
+		}
+		.hero-banner-image-inner {
+			padding-bottom: 66.66667%;
+		}
+	}
+	@include media-breakpoint-down(md) {
 		.hero-banner-text {
 			.hero-banner-text-inner {
 				margin-right: 0;
@@ -421,6 +429,7 @@ p {
 /* Footer */
 .wrapper-footer {
 	padding: 80px 0 20px 0;
+	border-top: 1px solid $gray-200;
 	
 	a {
 		color: $body-color;

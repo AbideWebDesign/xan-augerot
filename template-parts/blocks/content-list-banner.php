@@ -18,8 +18,8 @@
 				
 				<?php while ( have_rows('list_items') ) : the_row(); ?>
 					<div class="d-flex wrapper-list-item">
-						<div class="col-auto col-md-1 col-lg-1 col-xl-auto"><i class="fa fa-<?php the_sub_field('list_banner_icon_code'); ?>"></i></div>
-						<div class="col-auto col-md-11 col-lg-11 col-xl-auto"><?php the_sub_field('list_banner_item_text'); ?></div>
+						<div class="col-1 col-xl-auto"><i class="fa fa-<?php the_sub_field('list_banner_icon_code'); ?>"></i></div>
+						<div class="col-11 col-xl-auto"><?php the_sub_field('list_banner_item_text'); ?></div>
 					</div>
 				<?php endwhile; ?>
 				
