@@ -10695,7 +10695,9 @@ p {
 .wrapper-list-banner .hero-banner-text .hero-banner-text-inner {
   text-align: left;
   margin-right: 55px;
-  margin-left: auto; }
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 25px; }
 
 .wrapper-list-banner .wrapper-list-item:not(:last-child) {
   border-bottom: 1px solid #fec972;
