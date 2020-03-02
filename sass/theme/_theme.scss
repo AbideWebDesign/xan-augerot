@@ -25,8 +25,8 @@ p {
 .btn-white {
 	@extend .btn-light;
 }
-.btn-lg {
-	
+.btn-sm {
+	font-size: $font-size-xs;
 }
 .heading {
 	line-height: 2em;

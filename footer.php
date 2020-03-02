@@ -54,15 +54,6 @@ defined( 'ABSPATH' ) || exit;
 					
 				</div>
 				
-				<div id="footer-menu-sm" class="mb-5 text-center">
-					
-					<ul class="list-inline">
-						<li class="list-inline-item mr-5"><a href="<?php echo home_url('/contact'); ?>">Contact Us</a></li>
-						<li class="list-inline-item"><a href="<?php echo home_url('/privacy'); ?>">Privacy Policy</a></li>
-					</ul>
-					
-				</div>
-				
 				<div id="footer-text" class="mb-3 text-center">
 					
 					<?php the_field('footer_text', 'options'); ?>

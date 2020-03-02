@@ -20,7 +20,7 @@ get_header();
 
 			<div class="col-md-12 content-area" id="primary">
 
-				<main class="site-main" id="main">
+				<main class="site-main text-center" id="main">
 
 					<section class="error-404 not-found">
 
@@ -32,9 +32,7 @@ get_header();
 
 						<div class="page-content">
 
-							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'electxan' ); ?></p>
-
-							<?php get_search_form(); ?>
+							<p class="mt-5"><?php esc_html_e( 'It looks like nothing was found at this location.', 'electxan' ); ?></p>
 
 
 						</div><!-- .page-content -->

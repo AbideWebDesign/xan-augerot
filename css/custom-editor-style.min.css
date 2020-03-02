@@ -10453,6 +10453,9 @@ p {
   font-size: 0.98rem;
   text-transform: uppercase; }
 
+.btn-sm, .btn-group-sm > .btn, body .gform_wrapper .gform_footer .btn-group-sm > input[type=submit], #wrapper-navbar #navbarNavDropdown .btn-nav .btn-group-sm > .nav-link {
+  font-size: 12px; }
+
 .heading {
   line-height: 2em; }
   .heading:after {
