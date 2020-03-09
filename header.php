@@ -25,6 +25,7 @@ defined( 'ABSPATH' ) || exit;
 	
 	<div id="wrapper-top" class="bg-primary">
 		
+<!--
 		<div class="container">
 			
 			<div class="row justify-content-center justify-content-md-end">
@@ -41,6 +42,7 @@ defined( 'ABSPATH' ) || exit;
 			</div>
 			
 		</div>
+-->
 		
 	</div>
 	<div id="wrapper-navbar">

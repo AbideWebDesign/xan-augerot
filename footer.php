@@ -44,6 +44,7 @@ defined( 'ABSPATH' ) || exit;
 					
 				</div>
 				
+<!--
 				<div id="footer-social" class="mb-5 text-center">
 					
 					<ul class="list-inline mb-0">
@@ -53,6 +54,7 @@ defined( 'ABSPATH' ) || exit;
 					</ul>
 					
 				</div>
+-->
 				
 				<div id="footer-text" class="mb-3 text-center">
 					
