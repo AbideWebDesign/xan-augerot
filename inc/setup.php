@@ -129,3 +129,14 @@ if ( function_exists('acf_add_options_page') ) {
 	));
 	
 }
+
+function add_favicon() {
+	
+	$favicon_path = get_template_directory_uri() . '/favicon.png';
+	
+	echo '<link rel="shortcut icon" href="' . esc_url($favicon_path) . '" />';
+	
+}
+
+add_action( 'wp_head', 'add_favicon' );
+add_action( 'admin_head', 'add_favicon' );
