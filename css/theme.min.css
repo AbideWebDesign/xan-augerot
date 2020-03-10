@@ -10468,6 +10468,10 @@ p {
   @media (max-width: 1199.98px) {
     .heading:after {
       margin-bottom: 0; } }
+  @media (max-width: 767.98px) {
+    .heading {
+      font-size: 38px;
+      line-height: 1.3em; } }
 
 .heading-center {
   text-align: center; }

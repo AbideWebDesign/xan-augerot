@@ -45,6 +45,12 @@ p {
 			margin-bottom: 0;
 		}
 	}
+	@include media-breakpoint-down(sm) {
+		& {
+			font-size: 38px;
+			line-height: 1.3em;	
+		}
+	}
 }
 .heading-center {
 	text-align: center;
