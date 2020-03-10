@@ -49,6 +49,10 @@ p {
 		& {
 			font-size: 38px;
 			line-height: 1.3em;	
+			margin-bottom: .5em;
+		}
+		&:after {
+			margin-top: .5em;
 		}
 	}
 }
@@ -460,6 +464,16 @@ p {
     .gform_wrapper {
 	    background-color: $gray-200;
 	    padding: 2em;
+    }
+    
+    @include media-breakpoint-down(sm) {
+	    & {
+		    padding-top: 10%;
+		    padding-bottom: 10%;
+	    }
+	    .gform_wrapper {
+		    padding: 1em;
+	    }
     }
 }
 
