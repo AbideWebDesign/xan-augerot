@@ -24,7 +24,7 @@ get_header();
 
 		<div class="row">
 
-			<main class="site-main" id="main">
+			<div class="col-xl-8">
 
 				<?php if ( have_posts() ) : ?>
 
@@ -50,7 +50,7 @@ get_header();
 
 				<?php endif; ?>
 
-			</main><!-- #main -->
+			</div>
 
 			<!-- The pagination component -->
 			<?php electxan_pagination(); ?>

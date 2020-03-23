@@ -18,9 +18,9 @@ get_header();
 
 	<div class="container" id="content" tabindex="-1">
 
-		<div class="row">
+		<div class="row justify-content-center">
 
-			<main class="site-main" id="main">
+			<div class="col-xl-8">
 
 				<?php if ( have_posts() ) : ?>
 
@@ -52,7 +52,7 @@ get_header();
 
 				<?php endif; ?>
 
-			</main><!-- #main -->
+			</div>
 
 			<!-- The pagination component -->
 			<?php electxan_pagination(); ?>
@@ -61,6 +61,6 @@ get_header();
 
 	</div><!-- #content -->
 
-	</div><!-- #archive-wrapper -->
+</div><!-- #archive-wrapper -->
 
 <?php get_footer();

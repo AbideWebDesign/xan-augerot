@@ -57,7 +57,17 @@ function electxan_acf_init() {
 			'category'			=> 'formatting',
 			'icon'				=> 'align-left',
 		));
-		
+
+		// register text block for the blog
+		acf_register_block(array(
+			'name'				=> 'blog-text',
+			'title'				=> __('Blog Text Block'),
+			'description'		=> __('Text block'),
+			'render_callback'	=> 'electxan_acf_block_render_callback',
+			'category'			=> 'formatting',
+			'icon'				=> 'align-left',
+		));
+				
 		// register full screen image
 		acf_register_block(array(
 			'name'				=> 'full-image',

@@ -26,6 +26,8 @@ if ( ! function_exists( 'electxan_scripts' ) ) {
 
 		$js_version = $theme_version . '.' . filemtime( get_template_directory() . '/js/theme.min.js' );
 		wp_enqueue_script( 'electxan-scripts', get_template_directory_uri() . '/js/theme.min.js', array(), $js_version, true );
+		
+		wp_enqueue_script( 'electxan-share', '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e792cdae0c073c3', array(), true );
 	}
 } // endif function_exists( 'electxan_scripts' ).
 

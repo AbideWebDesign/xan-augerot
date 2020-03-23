@@ -44,17 +44,17 @@ defined( 'ABSPATH' ) || exit;
 					
 				</div>
 				
-<!--
 				<div id="footer-social" class="mb-5 text-center">
 					
 					<ul class="list-inline mb-0">
-						<li class="list-inline-item mr-5"><a href="<?php the_field('facebook', 'options'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+						<li class="list-inline-item mr-0"><a href="<?php the_field('facebook', 'options'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+<!--
 						<li class="list-inline-item mr-5"><a href="<?php the_field('twitter', 'options'); ?>" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
 						<li class="list-inline-item"><a href="<?php the_field('instagram', 'options'); ?>" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+-->
 					</ul>
 					
 				</div>
--->
 				
 				<div id="footer-text" class="mb-3 text-center">
 					

@@ -35,7 +35,7 @@ defined( 'ABSPATH' ) || exit;
 	
 	<div id="wrapper-top" class="bg-primary">
 		
-<!--
+
 		<div class="container">
 			
 			<div class="row justify-content-center justify-content-md-end">
@@ -44,15 +44,17 @@ defined( 'ABSPATH' ) || exit;
 					
 					<ul class="list-inline mb-0">
 						<li class="list-inline-item"><a href="<?php the_field('facebook', 'options'); ?>" target="_blank" class="text-white"><i class="fa fa-facebook-square"></i></a>
+<!--
 						<li class="list-inline-item"><a href="<?php the_field('twitter', 'options'); ?>" target="_blank" class="text-white"><i class="fa fa-twitter-square"></i></a>
 						<li class="list-inline-item"><a href="<?php the_field('instagram', 'options'); ?>" target="_blank" class="text-white"><i class="fa fa-instagram"></i></a>
+-->
 					</ul>
 					
 				</div>
 			</div>
 			
 		</div>
--->
+
 		
 	</div>
 	<div id="wrapper-navbar">
