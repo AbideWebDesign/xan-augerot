@@ -28,6 +28,9 @@ p {
 .btn-sm {
 	font-size: $font-size-xs;
 }
+.bg-secondary a {
+	color: $body-color;
+}
 .heading {
 	line-height: 2em;
 	
@@ -79,8 +82,16 @@ p {
 	top: 0;
 	left: 0;
 }
+.text-sm {
+	p {
+		font-size: $font-size-sm;
+	}
+}
 .wrapper {
 	padding: 100px 0;
+}
+.wrapper-sm {
+	padding: 50px 0;
 }
 @include media-breakpoint-down(lg) {
 	.wrapper {
@@ -540,42 +551,46 @@ p {
 }
 
 /* Single Post */
+#single-wrapper {
+	padding: 0 0 4em 0;
+}
 #breadcrumbs {
-	font-size: $font-size-sm;
 	margin-bottom: 0;
+	font-weight: bold;
+	font-size: $font-size-sm;
+	
+	a {
+		font-weight: normal;
+	}
 }
 .entry-header-blog {
-	border: 12px solid $gray-400;
-	padding: 3em;
+	padding: 2em 3em;
 	text-align: center;
-	margin-bottom: 4em;
+	margin-bottom: 0em;
 	
 	h1 {
+		color: white;
 		margin-bottom: .5em;
+		line-height: 1.2em;
 	}
 	.entry-header-meta {
 		display: flex;
 	}
 }
-.entry-content {
-	padding-bottom: 4em;
-	
+.entry-content {	
 	p:last-child {
 		margin-bottom: 0;
 	}
 }
 
 .entry-footer-content {
-	border-top: 4px solid $gray-400;
-	padding: 2em 0 4em;
+	border-top: 2px solid $secondary;
+	border-bottom: 2px solid $secondary;
 }
 
 @include media-breakpoint-down(sm) {
 	.entry-header-blog {
 		padding: 1.5em;
-		margin-bottom: 2em;
-		margin-left: -15px;
-		margin-right: -15px;
 		
 		h1 {
 			font-size: $h1-sm;

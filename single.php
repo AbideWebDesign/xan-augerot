@@ -11,32 +11,13 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 
 ?>
+<div id="single-wrapper">
 
-<div class="wrapper-sm" id="single-wrapper">
+	<?php while ( have_posts() ) : the_post(); ?>
 
-	<div class="container" id="content" tabindex="-1">
+		<?php get_template_part( 'loop-templates/content', 'single' ); ?>
 
-		<div class="row">
-			
-			<div class="col-12 mb-3">
-				
-				<?php
-				if ( function_exists('yoast_breadcrumb') ) {
-					yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
-				}
-				?>
-
-			</div>
-			
-		</div>
-		
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'loop-templates/content', 'single' ); ?>
-
-		<?php endwhile; // end of the loop. ?>
-
-	</div><!-- #content -->
+	<?php endwhile; // end of the loop. ?>
 
 </div><!-- #single-wrapper -->
 

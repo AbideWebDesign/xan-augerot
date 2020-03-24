@@ -52,9 +52,11 @@ if ( ! function_exists( 'electxan_setup' ) ) {
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
 		
+		add_theme_support( 'post-thumbnails' );
 	}
 }
 
+set_post_thumbnail_size( 758, 600, true );
 add_image_size('Square Medium', 400, 400, true);
 add_image_size('Side Cover', 1200, 1000, true);
 add_image_size('Hero Banner', 2400, 1600, true);

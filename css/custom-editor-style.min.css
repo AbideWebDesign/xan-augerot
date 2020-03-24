@@ -10456,6 +10456,9 @@ p {
 .btn-sm, .btn-group-sm > .btn, body .gform_wrapper .gform_footer .btn-group-sm > input[type=submit], #wrapper-navbar #navbarNavDropdown .btn-nav .btn-group-sm > .nav-link {
   font-size: 12px; }
 
+.bg-secondary a {
+  color: #212529; }
+
 .heading {
   line-height: 2em; }
   .heading:after {
@@ -10495,8 +10498,14 @@ p {
   top: 0;
   left: 0; }
 
+.text-sm p {
+  font-size: 0.98rem; }
+
 .wrapper {
   padding: 100px 0; }
+
+.wrapper-sm {
+  padding: 50px 0; }
 
 @media (max-width: 1199.98px) {
   .wrapper {
@@ -10806,35 +10815,37 @@ p {
     font-weight: bold; }
 
 /* Single Post */
+#single-wrapper {
+  padding: 0 0 4em 0; }
+
 #breadcrumbs {
-  font-size: 0.98rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 0.98rem; }
+  #breadcrumbs a {
+    font-weight: normal; }
 
 .entry-header-blog {
-  border: 12px solid #ced4da;
-  padding: 3em;
+  padding: 2em 3em;
   text-align: center;
-  margin-bottom: 4em; }
+  margin-bottom: 0em; }
   .entry-header-blog h1 {
-    margin-bottom: .5em; }
+    color: white;
+    margin-bottom: .5em;
+    line-height: 1.2em; }
   .entry-header-blog .entry-header-meta {
     display: flex; }
 
-.entry-content {
-  padding-bottom: 4em; }
-  .entry-content p:last-child {
-    margin-bottom: 0; }
+.entry-content p:last-child {
+  margin-bottom: 0; }
 
 .entry-footer-content {
-  border-top: 4px solid #ced4da;
-  padding: 2em 0 4em; }
+  border-top: 2px solid #FEB53F;
+  border-bottom: 2px solid #FEB53F; }
 
 @media (max-width: 767.98px) {
   .entry-header-blog {
-    padding: 1.5em;
-    margin-bottom: 2em;
-    margin-left: -15px;
-    margin-right: -15px; }
+    padding: 1.5em; }
     .entry-header-blog h1 {
       font-size: 40px; }
   .addthis_inline_share_toolbox {
@@ -10850,6 +10861,8 @@ body {
     display: none !important; }
   body .editor-styles-wrapper {
     background-color: #ccc; }
+  body.post-type-post .editor-styles-wrapper {
+    background-color: white; }
   body .editor-styles-wrapper > * {
     font-family: "proxima-nova", sans-serif;
     color: #212529; }

@@ -10,7 +10,11 @@ body {
 	.editor-styles-wrapper {
 		background-color: #ccc;
 	}
-	
+	&.post-type-post {
+		.editor-styles-wrapper {
+			background-color: white;
+		}
+	}
 	.editor-styles-wrapper > * {
 		font-family: $font-family-base;
 		color: $body-color;
