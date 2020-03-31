@@ -10814,6 +10814,27 @@ p {
     font-size: 12px;
     font-weight: bold; }
 
+/* Blog List */
+.post-wrapper {
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+  padding: 3em; }
+  .post-wrapper a h2 {
+    color: #212529; }
+  .post-wrapper a, .post-wrapper a:hover, .post-wrapper a:visited, .post-wrapper a:focus, .post-wrapper a:active {
+    text-decoration: none; }
+
+.post-cat {
+  font-size: 0.98rem;
+  text-transform: uppercase;
+  color: #FEB53F; }
+
+@media (max-width: 991.98px) {
+  .post-wrapper h2 {
+    font-size: 26px; }
+  .post-wrapper .post-cat {
+    font-size: 12px; } }
+
 /* Single Post */
 #single-wrapper {
   padding: 0 0 4em 0; }
@@ -10857,7 +10878,7 @@ body {
   /* Typography -------------------------------- */
   /* POST TITLE */
   /* GUTENBERG SIDEBAR */ }
-  body .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice {
+  body .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice, body .components-external-link {
     display: none !important; }
   body .editor-styles-wrapper {
     background-color: #ccc; }
@@ -10920,6 +10941,8 @@ body {
   body .editor-styles-wrapper a:focus,
   body .editor-styles-wrapper a:hover {
     text-decoration: underline; }
+  body #collapse-button .collapse-button-icon:after, body #collapse-button .collapse-button-label {
+    font-size: 13px; }
   body .editor-post-title__block .editor-post-title__input,
   body .editor-styles-wrapper .wp-block h1,
   body .editor-styles-wrapper .wp-block h2,
@@ -10961,3 +10984,5 @@ body {
     font-size: 14px; }
   body .edit-post-sidebar .editor-page-attributes__order {
     display: none; }
+  body #postexcerpt .postbox .inside > p:last-child {
+    display: none !important; }

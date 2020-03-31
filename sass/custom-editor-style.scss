@@ -3,7 +3,7 @@
 // @import "theme/theme_blocks"; 	// Hide autosave notice
 
 body {
-	.components-editor-notices__dismissible,.components-editor-notices__dismissible .components-notice, .components-editor-notices__pinned .components-notice {
+	.components-editor-notices__dismissible,.components-editor-notices__dismissible .components-notice, .components-editor-notices__pinned .components-notice, .components-external-link {
 		display: none !important;
 	}
 	
@@ -107,7 +107,9 @@ body {
 	.editor-styles-wrapper a:hover {
 		text-decoration: $link-hover-decoration;
 	}
-	
+	#collapse-button .collapse-button-icon:after, #collapse-button .collapse-button-label {
+		font-size: 13px;
+	}
 	.editor-post-title__block .editor-post-title__input,
 	.editor-styles-wrapper .wp-block h1,
 	.editor-styles-wrapper .wp-block h2,
@@ -171,5 +173,8 @@ body {
 		.editor-page-attributes__order {
 			display: none;
 		}
+	}
+	#postexcerpt .postbox .inside>p:last-child {
+		display: none !important;
 	}
 }

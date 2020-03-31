@@ -51,9 +51,18 @@ if ( ! function_exists( 'electxan_setup' ) ) {
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
-		
+
 		add_theme_support( 'post-thumbnails' );
 	}
+}
+
+add_action('init', 'unregister_tags');
+
+// Remove tags support from posts
+function unregister_tags() {
+	
+    unregister_taxonomy_for_object_type('post_tag', 'post');
+    
 }
 
 set_post_thumbnail_size( 758, 600, true );
@@ -93,7 +102,7 @@ if ( ! function_exists( 'electxan_all_excerpts_get_more_link' ) ) {
 	 */
 	function electxan_all_excerpts_get_more_link( $post_excerpt ) {
 		if ( ! is_admin() ) {
-			$post_excerpt = $post_excerpt . ' [...]<p><a class="btn btn-secondary electxan-read-more-link" href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __( 'Read More...',
+			$post_excerpt = $post_excerpt . '<p><a class="btn btn-secondary electxan-read-more-link" href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __( 'Read More',
 			'electxan' ) . '</a></p>';
 		}
 		return $post_excerpt;
@@ -132,6 +141,9 @@ if ( function_exists('acf_add_options_page') ) {
 	
 }
 
+add_action( 'wp_head', 'add_favicon' );
+add_action( 'admin_head', 'add_favicon' );
+
 function add_favicon() {
 	
 	$favicon_path = get_template_directory_uri() . '/favicon.png';
@@ -139,6 +151,3 @@ function add_favicon() {
 	echo '<link rel="shortcut icon" href="' . esc_url($favicon_path) . '" />';
 	
 }
-
-add_action( 'wp_head', 'add_favicon' );
-add_action( 'admin_head', 'add_favicon' );

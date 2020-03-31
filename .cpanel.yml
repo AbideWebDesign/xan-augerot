@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/elechfhd/staging.electxan.com/wp-content/themes/elect-xan/
-    - /bin/cp -r * $DEPLOYPATH

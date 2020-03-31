@@ -549,7 +549,34 @@ p {
 		}
 	}
 }
-
+/* Blog List */
+.post-wrapper {
+	border-radius: 10px;
+	border: 1px solid $gray-200;
+	padding: 3em;
+	
+	a h2 {
+		color: $body-color;
+	}
+	a, a:hover, a:visited, a:focus, a:active {
+		text-decoration: none;
+	}
+}
+.post-cat {
+	font-size: $font-size-sm;
+	text-transform: uppercase;
+	color: $secondary;
+}
+@include media-breakpoint-down(md) {
+	.post-wrapper {
+		h2 {
+			font-size: 26px;
+		}
+		.post-cat {
+			font-size: $font-size-xs;
+		}
+	}
+}
 /* Single Post */
 #single-wrapper {
 	padding: 0 0 4em 0;
