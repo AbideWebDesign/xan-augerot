@@ -10529,14 +10529,14 @@ p {
 #wrapper-navbar #navbarNavDropdown .nav-link {
   font-weight: 700;
   color: #212529;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-left: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
   font-size: 0.98rem;
   text-transform: uppercase; }
 
 #wrapper-navbar #navbarNavDropdown .btn-nav .nav-link {
-  margin-left: 4em; }
+  margin-left: 2em; }
 
 @media (max-width: 991.98px) {
   #wrapper-navbar #navbarNavDropdown .nav-link {
