@@ -580,6 +580,15 @@ p {
 /* Single Post */
 #single-wrapper {
 	padding: 0 0 4em 0;
+	
+	.section-full-image {
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.aligncenter {
+		display: block;
+	}
 }
 #breadcrumbs {
 	margin-bottom: 0;

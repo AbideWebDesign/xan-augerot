@@ -10838,6 +10838,12 @@ p {
 /* Single Post */
 #single-wrapper {
   padding: 0 0 4em 0; }
+  #single-wrapper .section-full-image {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 2em; }
+  #single-wrapper .aligncenter {
+    display: block; }
 
 #breadcrumbs {
   margin-bottom: 0;

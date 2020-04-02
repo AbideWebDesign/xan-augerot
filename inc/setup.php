@@ -65,7 +65,7 @@ function unregister_tags() {
     
 }
 
-set_post_thumbnail_size( 758, 600, true );
+set_post_thumbnail_size( 1200, 630, true );
 add_image_size('Square Medium', 400, 400, true);
 add_image_size('Side Cover', 1200, 1000, true);
 add_image_size('Hero Banner', 2400, 1600, true);
