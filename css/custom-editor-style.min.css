@@ -10879,12 +10879,15 @@ p {
     display: block; } }
 
 body {
+  font-size: 14px;
+  line-height: 22px;
   /* Structure --------------------------------- */
   /* Font Families ------------------------------ */
   /* Typography -------------------------------- */
   /* POST TITLE */
-  /* GUTENBERG SIDEBAR */ }
-  body .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice, body .components-external-link {
+  /* GUTENBERG SIDEBAR */
+  /* Yoast SEO */ }
+  body .yoast-notice-go-premium .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice, body .components-external-link {
     display: none !important; }
   body .editor-styles-wrapper {
     background-color: #ccc; }
@@ -10992,3 +10995,5 @@ body {
     display: none; }
   body #postexcerpt .postbox .inside > p:last-child {
     display: none !important; }
+  body #wpseo_meta *, body #wpseo_meta :after, body #wpseo_meta :before {
+    font-size: 14px; }

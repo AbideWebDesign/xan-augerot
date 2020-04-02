@@ -3,13 +3,17 @@
 // @import "theme/theme_blocks"; 	// Hide autosave notice
 
 body {
-	.components-editor-notices__dismissible,.components-editor-notices__dismissible .components-notice, .components-editor-notices__pinned .components-notice, .components-external-link {
+	font-size: 14px;
+	line-height: 22px;
+	
+	.yoast-notice-go-premium .components-editor-notices__dismissible,.components-editor-notices__dismissible .components-notice, .components-editor-notices__pinned .components-notice, .components-external-link {
 		display: none !important;
 	}
 	
 	.editor-styles-wrapper {
 		background-color: #ccc;
 	}
+	
 	&.post-type-post {
 		.editor-styles-wrapper {
 			background-color: white;
@@ -176,5 +180,10 @@ body {
 	}
 	#postexcerpt .postbox .inside>p:last-child {
 		display: none !important;
+	}
+	
+	/* Yoast SEO */
+	#wpseo_meta *, #wpseo_meta :after, #wpseo_meta :before {
+		font-size: 14px;
 	}
 }
