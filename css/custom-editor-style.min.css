@@ -10887,7 +10887,7 @@ body {
   /* POST TITLE */
   /* GUTENBERG SIDEBAR */
   /* Yoast SEO */ }
-  body .yoast-notice-go-premium .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice, body .components-external-link {
+  body .yoast-notice-go-premium, body .components-editor-notices__dismissible, body .components-editor-notices__dismissible .components-notice, body .components-editor-notices__pinned .components-notice, body .components-external-link {
     display: none !important; }
   body .editor-styles-wrapper {
     background-color: #ccc; }
