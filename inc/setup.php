@@ -124,7 +124,7 @@ if ( function_exists('acf_add_options_page') ) {
 		'menu_title'	=> 'Theme Settings',
 		'menu_slug' 	=> 'theme-general-settings',
 		'capability'	=> 'edit_posts',
-		'redirect'		=> false
+		'redirect'		=> true
 	));
 	
 	acf_add_options_sub_page(array(

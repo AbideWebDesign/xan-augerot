@@ -41,38 +41,6 @@
             },
             "default_value": "",
             "placeholder": ""
-        },
-        {
-            "key": "field_5e2f542e06f9e",
-            "label": "Twitter",
-            "name": "twitter",
-            "type": "url",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_5e2f543406f9f",
-            "label": "Instagram",
-            "name": "instagram",
-            "type": "url",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
         }
     ],
     "location": [
@@ -92,5 +60,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1585149987
+    "modified": 1586800534
 }
