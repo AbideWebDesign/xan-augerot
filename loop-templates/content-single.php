@@ -110,7 +110,8 @@ defined( 'ABSPATH' ) || exit;
 						<div class="mb-1">
 							
 							<h3 class="text-center"><?php the_field('footer_blog_title', 'options'); ?></h3>
-							<?php the_field('footer_blog_content', 'options'); ?>
+							
+							<div class="text-center"><?php the_field('footer_blog_content', 'options'); ?></div>
 							
 						</div>
 						
@@ -118,7 +119,7 @@ defined( 'ABSPATH' ) || exit;
 							
 							<div class="col-12 col-md-auto mb-2 mb-md-0"><a href="/contribute" class="btn btn-primary btn-block">Contribute</a></div>
 							
-							<div class="col-12 col-md-auto mb-3 mb-md-0 "><a href="/get-involved" class="btn btn-secondary btn-block">Get Involed</a></div>
+							<div class="col-12 col-md-auto mb-3 mb-md-0 "><a href="/get-involved" class="btn btn-secondary btn-block">Get Involved</a></div>
 							
 							<div class="col-12 col-md-auto addthis_inline_share_toolbox align-self-center text-center"></div>
 							
