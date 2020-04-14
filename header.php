@@ -61,7 +61,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'electxan' ); ?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-light" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-xl navbar-light" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e( 'Main Navigation', 'electxan' ); ?>
@@ -72,7 +72,7 @@ defined( 'ABSPATH' ) || exit;
 
 				<a class="navbar-brand ml-3 ml-sm-0" href="<?php echo home_url(); ?>"><img src="<?php the_field('logo', 'options'); ?>" width="120px" alt="Elect Xan Augerot" class="img-fluid" /></a>
 				
-				<div class="d-md-none ml-auto mr-3">
+				<div class="d-xl-none ml-auto mr-3">
 					<a href="<?php echo home_url('/contribute'); ?>" class="btn btn-secondary">Contribute</a>
 				</div>	
 					
