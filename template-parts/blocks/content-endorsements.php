@@ -17,7 +17,11 @@ $counter = 0;
 			
 			<div class="col">
 				
-				<h2 class="heading heading-center text-white mb-4"><?php the_field('endorsements_heading'); ?></h2>
+				<?php if ( get_field('endorsements_heading') ): ?>
+				
+					<h2 class="heading heading-center text-white mb-4"><?php the_field('endorsements_heading'); ?></h2>
+					
+				<?php endif; ?>
 				
 				<div id="endorsement_slides" class="carousel slide" data-ride="carousel">
 

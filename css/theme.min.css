@@ -10784,6 +10784,11 @@ p {
   max-width: 1500px;
   margin: auto; }
 
+/* Block - List */
+.wrapper-list .fa {
+  color: #FEB53F;
+  margin-right: .5em; }
+
 /* Footer */
 .wrapper-footer {
   padding: 80px 0 20px 0;
